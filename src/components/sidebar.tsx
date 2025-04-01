@@ -10,7 +10,7 @@ export const Sidebar = () => {
     return (
         <aside className="h-full bg-neutral-100 p-4 w-full">
             <Link href="/">
-                <Image src="/logo.webp" alt="Logo" width={260} height={48} className="rounded-lg" />
+                <Image src="/logo.webp" alt="Logo" width={220} height={48} className="rounded-lg" />
             </Link>
             <DottedSeparator className="my-4" />
             <WorkspaceSwitcher />

@@ -26,6 +26,9 @@ export const useCreateTask = () => {
         },
         onSuccess: () => {
             toast.success("Tarefa criada com sucesso");
+
+            queryClient.invalidateQueries({ queryKey: ["project-analytics"] });
+            queryClient.invalidateQueries({ queryKey: ["workspace-analytics"] });
             queryClient.invalidateQueries({ queryKey: ["tasks"] });
         },
         onError: (error) => {

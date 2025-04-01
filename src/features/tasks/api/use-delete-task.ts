@@ -27,6 +27,8 @@ export const useDeleteTask = () => {
         onSuccess: ({ data }) => {
             toast.success("Tarefa excluída com sucesso");
 
+            queryClient.invalidateQueries({ queryKey: ["project-analytics"] });
+            queryClient.invalidateQueries({ queryKey: ["workspace-analytics"] });
             queryClient.invalidateQueries({ queryKey: ["tasks"] });
             queryClient.invalidateQueries({ queryKey: ["task", data.$id] });
         },
