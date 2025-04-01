@@ -13,7 +13,7 @@ const StandaloneLayout = ({ children }: StandaloneLayoutProps) => {
             <div className="mx-auto max-w-screen-2xl p-4">
                 <nav className="flex justify-between items-center h-[73px]">
                     <Link href="/">
-                        <Image src="/logo.svg" alt="Logo" width={152} height={56} />
+                        <Image src="/logo.webp" alt="Logo" width={152} height={56} />
                     </Link>
                     <UserButton />
                 </nav>
