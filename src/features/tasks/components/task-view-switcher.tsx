@@ -86,7 +86,7 @@ export const TaskViewSwitcher = ({ hideProjectFilter }: TaskViewSwitcherProps) =
                             Kanban
                         </TabsTrigger>
                         <TabsTrigger
-                            className="h-8 w-full lg:w-auto"
+                            className="h-8 w-full lg:w-auto hidden sm:block"
                             value="calendar"
                         >
                             Calendário
