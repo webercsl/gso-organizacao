@@ -45,12 +45,12 @@ const app = new Hono()
                     image,
                 );
 
-                const arrayBuffer = await storage.getFilePreview(
+                const fileBuffer = await storage.getFileDownload(
                     IMAGES_BUCKET_ID,
-                    file.$id,
+                    file.$id
                 );
 
-                uploadedImageUrl = `data:image/png;base64,${Buffer.from(arrayBuffer).toString("base64")}`;
+                uploadedImageUrl = `data:image/png;base64,${Buffer.from(fileBuffer).toString("base64")}`;
             }
 
             const project = await databases.createDocument(
@@ -167,12 +167,12 @@ const app = new Hono()
                     image,
                 );
 
-                const arrayBuffer = await storage.getFilePreview(
+                const fileBuffer = await storage.getFileDownload(
                     IMAGES_BUCKET_ID,
-                    file.$id,
+                    file.$id
                 );
 
-                uploadedImageUrl = `data:image/png;base64,${Buffer.from(arrayBuffer).toString("base64")}`;
+                uploadedImageUrl = `data:image/png;base64,${Buffer.from(fileBuffer).toString("base64")}`;
             } else {
                 uploadedImageUrl = image;
             }
