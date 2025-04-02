@@ -10,7 +10,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Trackbit",
+  title: "Grupo Serra Online",
   description: "Controle seu tempo de forma intuitiva e melhore sua produtividade.",
 };
 
