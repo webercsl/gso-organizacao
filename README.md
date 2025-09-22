@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GSO Organização
 
-## Getting Started
+## 📜 Sobre o Projeto
 
-First, run the development server:
+**GSO Organização** é uma plataforma desenvolvida para otimizar e centralizar a gestão de uma organização. O sistema permite que administradores gerenciem membros, projetos, tarefas e recursos de forma eficiente e intuitiva, facilitando a colaboração e a organização interna.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A aplicação foi construída com tecnologias modernas, garantindo uma experiência de usuário fluida e um backend robusto e escalável.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🚀 Demo e Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Veja a plataforma em ação em **[gso-organizacao.vercel.app](https://gso-organizacao.vercel.app)**.
 
-## Learn More
+As principais funcionalidades incluem:
 
-To learn more about Next.js, take a look at the following resources:
+* **Gestão de Membros:** Adicione, edite ou remova membros da organização com diferentes níveis de permissão.
+* **Gerenciamento de Projetos e Tarefas:** Crie projetos, atribua tarefas e monitore o progresso.
+* **Sistema de Autenticação:** Login e cadastro de usuários para acesso seguro.
+* **Painel Administrativo:** Dashboard centralizado para visualização e controle de todas as atividades.
+* **Design Responsivo:** Layout adaptável para uso em dispositivos móveis e desktop.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🛠 Tecnologias Utilizadas
 
-## Deploy on Vercel
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Next.js:** Framework React para otimização de performance e renderização do lado do servidor (SSR).
+* **React:** Biblioteca JavaScript para construção da interface de usuário.
+* **TypeScript:** Adiciona tipagem estática, aumentando a segurança e a manutenibilidade do código.
+* **Tailwind CSS:** Framework utilitário de CSS para estilização rápida e responsiva.
+* **Componentes de UI:** Utilização de bibliotecas de componentes como **shadcn/ui** ou similares.
+* **Backend as a Service (BaaS):** Plataforma para banco de dados e lógica de backend.
+* **Vercel:** Plataforma de hospedagem para deploy e distribuição contínua.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
